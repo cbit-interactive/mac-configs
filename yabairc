@@ -7,19 +7,19 @@ yabai -m space 1 --label main
 yabai -m space 2 --label web
 yabai -m space 3 --label chat
 yabai -m space 4 --label music
-yabai -m space 5 --label editors
-yabai -m space 6 --label immersion
-yabai -m space 7 --label anki
-yabai -m space 8 --label terminal
+yabai -m space 5 --label code
+yabai -m space 6 --label anki
+yabai -m space 7 --label other
 
-yabai -m rule --add app="^DaVinci Resolve$" space=main
+yabai -m rule --add app="^DaVinci Resolve$" space=other
+yabai -m rule --add app="^XCode$" space=code
 yabai -m rule --add app="^Firefox$" space=web
 yabai -m rule --add app="^Discord$" space=chat
 yabai -m rule --add app="^Spotify$" space=music
-yabai -m rule --add app="^Visual Studio Code$" space=editors
-yabai -m rule --add app="^Google Chrome$" space=immersion
+yabai -m rule --add app="^Visual Studio Code$" space=other
+yabai -m rule --add app="^Google Chrome$" space=web
 yabai -m rule --add app="^Anki$" space=anki
-yabai -m rule --add app="^terminal$" space=terminal
+yabai -m rule --add app="^terminal$" space=code
 
 
 # Window rules
