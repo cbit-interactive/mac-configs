@@ -1,1 +1,2 @@
 1. Change output devices
+2. Add the sources for Yabai and SKHD
